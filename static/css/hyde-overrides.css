@@ -1,0 +1,84 @@
+/*
+ * Tweaks and overrides to hyde.css
+ */
+/*
+// font stacks
+* @font-stack-common      : Merriweather, Georgia, serif; // common font
+* @font-stack-headings    : Raleway, "Open Sans", Arial, sans-serif; // headings font
+* @font-stack-monospace   : Consolas, "DejaVu Sans Mono", Courier, monospace; // monospace font
+* @font-stack-universal   : "Open Sans", FreeSans, Arimo, "Droid Sans", Helvetica, Arial, sans-serif; // universal stack
+*/
+html {
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}    
+
+.sidebar-about h1 {
+  color: #fff;
+  margin-top: 0;
+  font-family: "Droid Serif", serif;
+  font-size: 2.5rem;
+}
+
+.sidebar-nav {
+  padding-left: 0;
+  list-style: none;
+  margin-bottom: 1rem;
+}
+
+@media screen and (max-width: 48em) {
+  .sidebar {
+    padding: 0.5em;
+  }
+  
+  .sidebar-nav-item {
+    display: inline-block;
+    line-height: 1.75;
+    vertical-align: bottom;
+  }
+}
+
+.about-container {
+  width: 100%;
+  margin: auto;
+}
+
+@media screen and (min-width: 48em) {
+  .content {
+    max-width: 100%;
+    margin-left: 18rem;
+    margin-right: 0rem;
+  }
+}
+
+@media screen and (min-width: 68em) {
+  .content {
+    max-width: 100%;
+    margin-left: 18rem;
+    margin-right: 0rem;
+  }
+  
+  .about-container {
+    max-width: 68em;
+  }
+}
+
+/*
+.about-container {
+  width: 100%;
+  margin: auto;
+}
+
+@media screen and (min-width: 48em) {
+  .content {
+    max-width: 100%;
+  }
+}
+
+@media screen and (min-width: 68em) {
+  .content {
+    max-width: 68em;
+  }
+}
+*/

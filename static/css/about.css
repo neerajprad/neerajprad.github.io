@@ -1,0 +1,108 @@
+.img-about0 {
+  width: 30%;
+  max-width: 18em;
+  margin-bottom: 1 rem;
+  margin-top: 1 rem;
+  margin-left: auto;
+  margin-right: auto;
+}    
+
+.project-container {
+  width: 100%;
+  overflow: auto;
+  clear: both; 
+}
+
+/*
+.project-img {
+  width: 20%;
+  display: inline-block;
+  vertical-align: middle;
+}
+
+.project-text {
+  width: 70%;
+  display: inline-block;
+  vertical-align: middle;
+}
+*/
+
+.project-img {
+  width: 20%;
+  float: right;
+  margin: 0em;
+  min-width: 200px;
+}
+
+figcaption > h4 {
+  font-size: 0.8rem;
+  text-align: center;
+}
+
+figcaption > p {
+  font-size: 0.6rem;
+  text-align: center;
+}
+
+.project-text {
+  width: 75%;
+  float: left; 
+  margin-left: 0em;
+  margin-right: 0em;
+  margin-top: 1em;
+}
+
+/*
+@media (min-width: 74em) {
+  .iframe {
+    margin-left: 18rem;
+    margin-right: 18rem; 
+    width: 74em; 
+  }
+}
+*/
+
+@media screen and (max-width: 80em) {
+  .project-img {
+    width: 20%;
+    display: block;
+    float: none;
+    margin: auto;
+  }
+ .project-text {
+    width: 100%;
+    display: block;
+    float: none;
+    margin: auto;
+  }
+}
+/*
+@media screen and (min-width: 40em) {
+  .img-about1 {
+    float: right
+  }
+}
+*/
+
+
+.iframe-container {
+  overflow: hidden;
+  margin-left: 18rem;
+}
+
+iframe {
+ width: 100%;
+ height: 70em;
+}
+
+@media screen and (max-width: 48em) {
+  .iframe-container {
+    overflow: hidden;
+    margin-left: 0em;
+  }
+  
+  .iframe {
+    margin-left: auto;
+    margin-right: auto;
+  }
+}

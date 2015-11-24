@@ -1,0 +1,70 @@
+baseurl = "http://neerajprad.github.io"
+languageCode = "en-us"
+title = "Neeraj Pradhan's Homepage"
+
+# disqusShortname = "your_disqus_shortname" # Optional, enable Disqus integration
+MetaDataFormat = "toml"
+# theme = "hyde-x"
+paginate = 10
+
+[author]
+    name = "Neeraj Pradhan"
+
+[permalinks]
+    # Optional. Change the permalink format for the 'post' content type.
+    # The format shown here is the same one Jekyll/Octopress uses by default.
+    post = "/blog/:year/:month/:day/:title/"
+
+[taxonomies]
+    # Optional. Use if you want tags and lists.
+    category = "categories"
+
+#
+# All parameters below here are optional and can be mixed and matched.
+#
+[params]
+    # If false display full article contents in blog index.
+    # Otherwise show description and 'read on' link to individual blog post page.
+    # Default (if omitted) is true.
+    truncate = false
+
+    # Used when a given page doesn't set its own.
+    defaultDescription = "Your default page description"
+    defaultKeywords = "your,default,page,keywords"
+
+    # Changes sidebar background and link/accent colours.
+    # See below for more colour options.
+    # This also works: "theme-base-08 layout-reverse", or just "layout-reverse".
+    theme = "theme-base-0g"
+
+    # Select a syntax highight.
+    # Check the static/css/highlight directory for options.
+    highlight = "sunburst"
+
+    # Displays under the author name in the sidebar, keep it short.
+    # You can use markdown here.
+    # tagline = "data geek"
+
+    # Text for the top menu link, which goes the root URL for the site.
+    # Default (if omitted) is "Blog".
+    home = "About"
+
+    # Metadata used to drive integrations.
+    # googleAuthorship = "Your Google+ profile ID"
+    # googleAnalytics = "Your Google Analytics tracking code"
+    gravatarHash = "a57ce68e99e8029552a964f29273fb7e"
+
+    # Sidebar social links, these must be full URLs.
+    #  github = ""
+    # bitbucket = ""
+    # stackOverflow = ""
+    linkedin = "https://www.linkedin.com/in/neerajprad"
+    # googleplus = ""
+    # facebook = ""
+    twitter = "https://twitter.com/neerajprad"
+    # youtube = ""
+    mailto = "prad[dot][first-name]@gmail"
+
+    # Other social-like sidebar links
+    # rss = false  # switch to true to enable RSS icon link
+    # flattr = ""  # populate with your flattr uid

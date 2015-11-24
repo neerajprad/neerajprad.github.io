@@ -1,0 +1,12 @@
+{{ partial "head.html" . }}
+<div class="content container">
+<div class="about-container">
+  {{ if isset .Site.Params "gravatarHash" }}
+    <img src="https://www.gravatar.com/avatar/{{ .Site.Params.gravatarHash }}?s=300" alt="gravatar" title="{{ .Site.Params.brand }}" class="img-about0">
+  {{ end }}
+  <div class="post">
+    {{ .Content }}
+  </div>
+</div>
+</div>
+{{ partial "foot.html" . }}
