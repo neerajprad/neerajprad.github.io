@@ -1,4 +1,5 @@
 baseurl = "http://neerajprad.github.io"
+canonifyurls = true
 languageCode = "en-us"
 title = "Neeraj Pradhan's Homepage"
 
