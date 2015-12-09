@@ -42,7 +42,7 @@ Modular organization characterizes many complex networks. We studied the role of
  - The findings may provide a clue to the evolution and ubiquity of modular networks in nature.
    - Neeraj Pradhan, Subinay Dasgupta and Sitabhra Sinha. *Modular organization enhances the robustness of attractor network dynamics*. Europhys. Lett. 94 (2011) 38004 (1-6). [paper](/docs/modular_networks).
 {{% /insertclass %}}
-{{< figure src="/img/Brain_network.png" link="/docs/modular_networks" class="project-img" title="Modular structure is common across  many real world networks including the human brain." attr="(Wikimedia Commons)" attrlink="https://en.wikipedia.org/wiki/Biological_neural_network#/media/File:Brain_network.png" >}}
+{{< figure src="/img/Brain_network.jpg" link="/docs/modular_networks" class="project-img" title="Modular structure is common across  many real world networks including the human brain." attr="(Hagmann et al., 2008)" attrlink="http://www.ncbi.nlm.nih.gov/pmc/articles/PMC3112315/" >}}
 {{% /insertclass %}}   
 
 
